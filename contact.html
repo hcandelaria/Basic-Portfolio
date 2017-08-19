@@ -3,48 +3,42 @@
 <head>
 	<title>Contact</title>
 	<!--Link to css file -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 
 <!--Body-->
 <body>
-	<!--Header-->
-	<header> 
-	</header>
-
-	<!--Contact section -->
+	<!--Nav-->
+	<nav>
+		<h1 class="h1Setting">Hector Candelaria</h1>
+		<a class="aSetting hoverCSS" href="index.html">About</a>
+		<a class="aSetting hoverCSS" href="portfolio.html">Portfolio</a>
+		<a class="aSetting hoverCSS" href="contact.html">Contact</a>
+	</nav>
 	<div id="bodyContainer">
+		<!--Contact section -->
 		<section id="contactSection">
-			<h1 class="h1Setting">Hector Candelaria</h1>
 			<h2>Contact</h2>
 			<label>Name</label>
 	  		<input type="text" name="Name" value="John Smith">
 	  		<label>Email</label>
-	  		<input type="text" name="Email" value="example@gmail.com">
+	  		<input type="email" name="Email" value="example@gmail.com">
 	  		<label>Message</label>
-  			<input id="messageBox" type="text" name="Message" value="">
+			<textarea rows="15" cols="82" name="comment" form="usrform"></textarea>
 			<button>Submit</button>
 		</section>
 
 		<!--Connect section-->
-		<section id="connectSection">
-			<nav>
-				<a class="aSetting hoverCSS" href="index.html">About</a>
-				<a class="aSetting hoverCSS" href="portfolio.html">Portfolio</a>
-				<a class="aSetting hoverCSS" href="contact.html"  style="padding: 37px 5px; background-color: #FF6F00;">Contact</a>
-			</nav>
+		<aside id="connectSection">
+
 			<h2>Connect with me</h2>
-			<a href="https://github.com/hcandelaria" target="_blank">
-				<img src="images/github.png" alt="github">
-			</a>
-			<a href="https://www.linkedin.com/in/hector-candelaria-986347136/" target="_blank">
-				<img src="images/LinkedIn.png" alt="linkedin">
-			</a>
-			<a href="https://stackoverflow.com/users/7154195/hector-candelaira?tab=profile" target="_blank">
-				<img src="images/Stackoverflow.png" alt="stackoverflow">
-			</a>
-		</section>
+
+			<a href="https://github.com/hcandelaria" target="_blank"><img src="images/github.png" alt="github"></a>
+			<a href="https://www.linkedin.com/in/hector-candelaria-986347136/" target="_blank"><img src="images/LinkedIn.png" alt="linkedin"></a>
+			<a href="https://stackoverflow.com/users/7154195/hector-candelaira?tab=profile" target="_blank"><img src="images/Stackoverflow.png" alt="stackoverflow"></a>
+		</aside>
 	</div>
 	<!--Footer-->
 	<footer>
